@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.min.css">
+    
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title>SergeyAvtoPerevoz | Home</title>
+</head>
+<body>
+
+    <div class="page" id="page">
+        <!-- Header -->
+        <header class="header">
+            <div class="header__left">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a class="nav__link" href="../index.html">Главная</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link has-subnav" href="">Статьи</a>
+                            <ul class="subnav">
+                                <li>
+                                    <a class="subnav__link" href="#">Информация о ПДД</a>
+                                </li>
+                                <li>
+                                    <a class="subnav__link" href="#">Интересные факты</a>
+                                </li>
+                                <li>
+                                    <a class="subnav__link" href="#">Превозка опасных грузов</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="text.html">Обо мне</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="text.html">Прайс</a>
+                        </li>
+                    </ul>
+                </nav>
+        
+                <button class="burger" type="button" id="sidebarToggle">
+                    <span>Открыть навигацию</span>
+                </button>
+            </div>
+            <div class="header__right">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a class="nav__link" href="profile.html">Профиль</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="">Выйти</a>
+                        </li>
+                    </ul>
+                </nav>
+                <form class="search" action="search.html" method="get">
+                    <input class="search__input" type="text" placeholder="Поиск по блогу">
+                </form>
+            </div>
+        </header>
+        <!-- Sidebar -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar__header">
+                <img src="assets/images/sidebar-header1.jpg" alt="">
+            </div>
+            <div class="sidebar__content">
+                <div class="profile">
+                    <img class="profile__avatar" src="assets/images/car.jpg" alt="">
+                    
+                    <div class="profile__header">
+                        <div class="profile__name">Сергей Юрьевич</div>
+                        <div class="profile__prof">блог по грузовым перевозкам</div>
+                    </div>
+        
+                    <ul class="social">
+                        <li class="social__item">
+                            <a social__link href="" target="_blank">
+                                <img class="social__img" src="assets/images/whatsapp.png" alt="WhatsApp">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a social__link href="" target="_blank">
+                                <img class="social__img" src="assets/images/vk.png" alt="Vk">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a social__link href="" target="_blank">
+                                <img class="social__img" src="assets/images/ati1.png" alt="Ati">
+                            </a>
+                        </li>
+                        <li class="social__item">
+                            <a social__link href="" target="_blank">
+                                <img class="social__img" src="assets/images/drive.png" alt="Drive2">
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="profile__text">
+                        <p>
+                            Все грузоперевозки проходят обязательное страхование. Материальная ответственность за сохранность груза и соблюдение сроков доставки. Закрепленные договором гарантии результата.
+                        </p>
+                    </div>
+                </div> <!-- /. profile -->
+        
+                <nav class="nav nav--mobile">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a class="nav__link" href="../index.html">Главная</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link has-subnav" href="">Статьи</a>
+                            <ul class="subnav">
+                                <li>
+                                    <a class="subnav__link" href="#">Информация о ПДД</a>
+                                </li>
+                                <li>
+                                    <a class="subnav__link" href="#">Интересные факты</a>
+                                </li>
+                                <li>
+                                    <a class="subnav__link" href="#">Превозка опасных грузов</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="text.html">Обо мне</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="text.html">Прайс</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="profile.html">Профиль</a>
+                        </li>
+                        <li class="nav__item">
+                            <a class="nav__link" href="#">Выйти</a>
+                        </li>
+                    </ul>
+                </nav>
+        
+            </div> <!-- /. sidebar__content -->
+            <div class="sidebar__footer">
+                <a class="btn btn--blue" href="works.html">Мой работы</a>
+                <button class="btn btn--blue" type="button" data-modal="contact-modal">Написать мне</button>
+            </div>
+        </aside>        <!-- Main -->
+        <main class="main">
+            <div class="container">
+                <!-- Stories -->
+                <div class="stories">
+                    <div class="stories__item" data-modal="story-modal">
+                        <img class="stories__preview" src="assets/images/stories/1.jpg" alt="">
+                        <div class="stories__title">Интересные координаты</div>
+                        <time class="stories__date" datetime="2021-09-21 19:21">21.09.21</time>
+                    </div>
+                    <div class="stories__item" data-modal="story-modal">
+                        <img class="stories__preview" src="assets/images/stories/2.jpg" alt="">
+                        <div class="stories__title">Переезд, новое жилье</div>
+                        <time class="stories__date" datetime="2022-12-20 19:21">20.12.22</time>
+                    </div>
+                    <div class="stories__item" data-modal="story-modal">
+                        <img class="stories__preview" src="assets/images/stories/3.jpg" alt="">
+                        <div class="stories__title">Отдых на природе</div>
+                        <time class="stories__date" datetime="2023-01-15 19:21">15.10.23</time>
+                    </div>
+                    <div class="stories__item" data-modal="story-modal">
+                        <img class="stories__preview" src="assets/images/stories/4.jpg" alt="">
+                        <div class="stories__title">Обслуживание авто</div>
+                        <time class="stories__date" datetime="2022-07-11 19:21">11.07.22</time>
+                    </div>
+                </div> <!-- /.stories -->
+                
+                <!-- Add Post -->
+                
+                <div class="add-post">
+                    <form class="add-post__form" action="/" method="post">
+                        <textarea class="add-post__textarea" name="post-text" placeholder="Напишите что-нибудь" data-autoresize=""></textarea>
+                
+                        <div class="add-post__form-actions">
+                            <label class="add-post__file" for="add-post-file">
+                                <input type="file" id="add-post-file">
+                            </label>
+                            <button class="add-post__send" type="submit">
+                                Отправить
+                            </button>
+                        </div>
+                    </form>
+                </div>
+                
+                <!-- Article Post -->
+                <div class="post">
+                    <div class="post__content">
+                        <p class="post__description">
+                            Приемлемые цены и достаточный опыт в данной области – то, на чём основывается моя деятельность. Индивидуальный подход к клиентам, сотрудничество с физическими и юридическими лицами - обязательные критерии моей работы. Постоянно слежу за техническим состоянием автомобиля, что позволяет свести вероятность внезапной поломки к минимуму.
+                        </p>
+                    </div>
+                
+                    <div class="post__footer">
+                        <ul class="post__data">
+                            <li class="post__data-item">
+                                <time datetime="2020-06-20 19:21">21.06.2020</time>
+                            </li>
+                        </ul>
+                    </div>
+                </div> <!-- /.post -->
+                
+                <article class="post">
+                    <div class="post__header post__header--preview">
+                        <a href="post.html">
+                            <img class="post__preview" src="assets/images/post-2.jpg" alt="Особенности сборных автомобильных грузоперевозок">
+                        </a>
+                    </div>
+                
+                    <div class="post__content">
+                        <h2 class="post__title">
+                            <a href="post.html">Особенности сборных автомобильных грузоперевозок</a>
+                        </h2>
+                        <p class="post__description">
+                            Сборная грузоперевозка — это транспортировка в одной машине нескольких грузов от разных грузоотправителей разным грузополучателям. Как правило, «встречаются» в одном транспортном средстве небольшие партии товара, для которых заказывать отдельный автомобиль нецелесообразно. По крайней мере, по финансовым соображениям.
+                        </p>
+                    </div>
+                
+                    <div class="post__footer">
+                        <ul class="post__data">
+                            <li class="post__data-item">
+                                <time datetime="2020-06-20 19:21">21.06.2020</time>
+                            </li>
+                            <li class="post__data-item">
+                                <a href="#">Интересные факты</a>
+                            </li>
+                        </ul>
+                        <a class="post__read" href="post.html">читать</a>
+                    </div>
+                </article> <!-- /.article -->
+                
+                <article class="post">
+                    <div class="post__header">
+                        <div class="embed">
+                            <iframe src="https://www.youtube.com/embed/aGLhSVsnlSM" title="Анимационный ролик - Грузоперевозки" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                        </div>
+                    </div>
+                
+                    <div class="post__content">
+                        <h2 class="post__title">
+                            <a href="post.html">Как же выглядит сборная грузоперевозка?</a>
+                        </h2>
+                        
+                    </div>
+                
+                    <div class="post__footer">
+                        <ul class="post__data">
+                            <li class="post__data-item">
+                                <time datetime="2020-06-20 19:21">21.06.2020</time>
+                            </li>
+                            <li class="post__data-item">
+                                <a href="#">Интересные факты</a>
+                            </li>
+                        </ul>
+                        <a class="post__read" href="#">оставить коментарий</a>
+                    </div>
+                </article> <!-- /.article -->
+                
+                <article class="post">
+                    <div class="post__header post__header--preview">
+                        <a href="#">
+                            <img class="post__preview" src="assets/images/post-3.jpg" alt="Особенности сборных автомобильных грузоперевозок">
+                        </a>
+                    </div>
+                
+                    <div class="post__content">
+                        <h2 class="post__title">
+                            <a href="#">Расчет стоимости доставки сборного груза</a>
+                        </h2>
+                        <p class="post__description">
+                            Основная характеристика здесь — плотность груза: именно в зависимости от ее величины и выставляется цена за перевозку. Плотность измеряется в кг/м3 и определяется по формуле — масса груза/объем. Если она меньше 250, груз считается объемным и оценивается в соответствии со своими габаритами, если же больше — груз тяжелый и за основу расчета берется его вес.
+                        </p>
+                    </div>
+                
+                    <div class="post__footer">
+                        <ul class="post__data">
+                            <li class="post__data-item">
+                                <time datetime="2020-06-20 19:21">21.06.2020</time>
+                            </li>
+                            <li class="post__data-item">
+                                <a href="#">Интересные факты</a>
+                            </li>
+                        </ul>
+                        <a class="post__read" href="#">читать</a>
+                    </div> 
+                </article> <!-- /.article -->
+                
+                <!-- Pagination -->
+                <ul class="pagination">
+                    <li class="pagination__item">
+                        <a class="pagination__link" href="#">&lt;</a>
+                    </li>
+                    <li class="pagination__item">
+                        <a class="pagination__link" href="#">1</a>
+                    </li>
+                    <li class="pagination__item">
+                        <a class="pagination__link active" href="#">2</a>
+                    </li>
+                    <li class="pagination__item">
+                        <a class="pagination__link" href="#">3</a>
+                    </li>
+                    <li class="pagination__item">
+                        <a class="pagination__link" href="#">&gt;</a>
+                    </li>
+                </ul>
+            </div>
+            
+        </main>
+    
+    </div>
+    
+    
+
+    <!-- <footer>Footer</footer>
+ -->
+
+    <div class="modal" id="story-modal">
+        <div class="modal__content modal__content--story">
+            <span class="fr-video">
+                <video class="modal__video" autoplay muted src="../assets/images/202.mp4">
+            </span>            
+            </video>
+            <!-- <span class="fr-video">
+                <iframe class="modal__video" src="https://www.youtube.com/embed/aGLhSVsnlSM" title="Анимационный ролик - Грузоперевозки" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </span> -->
+        </div>
+    </div>    <div class="modal" id="contact-modal">
+        <div class="modal__content modal__content--contact">
+    
+            <button class="modal__close" type="button">
+                <img src="../assets/images/close.svg" alt="Закрыть">
+            </button>
+    
+            <form class="form" action="/" method="post">
+    
+                <div class="form__group form__group--md">
+                    <input class="form__control" type="text" placeholder="Ваше имя">
+                    <span class="form__line"></span>
+                </div>
+    
+                <div class="form__group form__group--md">
+                    <input class="form__control" type="email" placeholder="Ваш e-mail">
+                    <span class="form__line"></span>
+                </div>
+    
+                <div class="form__group form__group--md">
+                    <textarea class="form__control form__control--textarea" placeholder="Текст сообщения"></textarea>
+                    <span class="form__line"></span>
+                </div>
+    
+                <div class="form__footer">
+                    <div class="form__group form__group--md">
+                        <button class="btn btn--blue btn--rounded btn--sm" type="submit">Отправить</button>
+                    </div>
+                    
+                </div>
+            </form>
+    
+            <ul class="modal__footer">
+                <li>
+                    e-mail: <a href="mailto:ati.sergy@mail.ru">ati.sergy@mail.ru</a>
+                </li> 
+                <li>
+                    тел: <a href="tel:+7800080800">+7800080800</a>
+                </li>
+            </ul>
+    
+        </div> <!-- ./modal__content-->
+    </div> <!-- ./modal-->    <div class="modal">
+        <div class="modal__content">
+    
+            <button class="modal__close" type="button">
+                <img src="../assets/images/close.svg" alt="Закрыть">
+            </button>
+    
+            <ul class="social">
+                <li class="social__item">
+                    <a social__link href="">
+                        <img class="social__img" src="../assets/images/share/1.svg" alt="WhatsApp">
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a social__link href="">
+                        <img class="social__img" src="../assets/images/share/2.svg" alt="">
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a social__link href="">
+                        <img class="social__img" src="../assets/images/share/3.svg" alt="">
+                    </a>
+                </li>
+                <li class="social__item">
+                    <a social__link href="">
+                        <img class="social__img" src="../assets/images/share/4.svg" alt="">
+                    </a>
+                </li>
+            </ul>
+    
+        </div> <!-- ./modal__content-->
+    </div> <!-- ./modal-->
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
